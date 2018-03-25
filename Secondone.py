@@ -1,4 +1,4 @@
-fname = input('Enter the filename..')
+fname = input('Enter the filename: ')
 try:
     fhand = open(fname)
 except:
@@ -9,4 +9,4 @@ count = 0
 for line in fhand:
     if line.startswith('Subject'):
         count = count + 1
-    print('There were',count,'subject line in',fname)
+print('There were',count,'subject line in',fname)
