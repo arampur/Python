@@ -26,3 +26,9 @@ mystring = ['Amith', 'Akshath', 'Appaji', 'mummy', 'Rishika', 'Anvika']
 delimiter = ' '
 delimiter.join(mystring)
 print(mystring)
+
+#Testing on aliases
+mystring = list1
+mystring[0] = 'AmithRampur'
+print(mystring is list1)
+print(list1)
