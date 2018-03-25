@@ -1,12 +1,10 @@
-fname = input('Enter the filename: ')
+fname = input('enter your filename: ')
 try:
     fhand = open(fname)
 except:
-    print('File cant be opened..', fname)
-    exit()
-
+    print('File cannot be opened: ',fname)
 count = 0
 for line in fhand:
     if line.startswith('Subject'):
         count = count + 1
-print('There were',count,'subject line in',fname)
+print('There were', count, 'subject lines in ',fname) 
