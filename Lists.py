@@ -32,3 +32,8 @@ mystring = list1
 mystring[0] = 'AmithRampur'
 print(mystring is list1)
 print(list1)
+
+#mydictionary
+eng2sp = {'Amith': 'ammu','Akshath': 'Akku','Amma': 'mamma'}
+print(eng2sp['Amith'])
+values = list(eng2sp.values())
