@@ -37,3 +37,10 @@ print(list1)
 eng2sp = {'Amith': 'ammu','Akshath': 'Akku','Amma': 'mamma'}
 print(eng2sp['Amith'])
 values = list(eng2sp.values())
+
+#dictionary implementation
+word = 'dinosaurus'
+d = dict()
+for char in word:
+    d[char] = d.get(char,0)+ 1
+print(d)
