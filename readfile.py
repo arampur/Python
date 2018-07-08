@@ -13,4 +13,4 @@ else:
     print("sorry entered text not found..try something else..")
 
 with open('blankfile.txt','w') as writefile:
-    writefile.write(mynumber)
+    writefile.write(mynumber,'\n')
