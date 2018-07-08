@@ -1,0 +1,4 @@
+This is Sample text
+Demonstration of reading a file content with python file object
+Read and prints the contents of this file....
+01234567890
